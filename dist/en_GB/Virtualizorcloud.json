@@ -1,0 +1,100 @@
+{
+    "kvm": "KVM",
+    "openvz": "OpenVZ",
+    "lxc": "LXC",
+    "virtualizorcloud": {
+        "hostname": "Host",
+        "os": "OS",
+        "planname": "Plan name",
+        "offline": "Offline",
+        "online": "Online",
+        "productname": "Product name",
+        "form": {
+            "resources": {
+                "title": "Resources",
+                "disk": "Disk space (GB)",
+                "io": "Block IO",
+                "bandwidth": "Bandwidth (GB Zero or empty for unlimited)",
+                "inodes": "INode (OpenVZ)",
+                "priority": "I\/O Priority (OpenVZ)",
+                "vnc": "VNC Enabled (KVM)",
+                "speed": "Network speed in KB\/s (KB\/s zero or empty for unlimited)",
+                "server": "Server",
+                "group": "Group",
+                "ip6": "IPv6",
+                "oses": "Os available (separated by commas)",
+                "ip6subnet": "Ip6subnet",
+                "ips": "Ips",
+                "internalips": "Internal IP",
+                "portrange": "Port to assign to the server (separated by commas)"
+            },
+            "configurations": {
+                "title": "Configurations",
+                "server": "Server",
+                "group": "Group",
+                "vnc": "VNC"
+            },
+            "stockage": {
+                "title": "STORAGE Section",
+                "ram": "RAM MB (KVM, LXC)",
+                "guaranteed": "Guaranteed Ram (MB)",
+                "burstable": "Burstable Ram (OpenVZ)",
+                "space": "Space disk (GB)",
+                "spaceid": "Space id"
+            },
+            "cpu": {
+                "cores": "Cores",
+                "units": "Units",
+                "cpu": "CPU in %",
+                "title": "CPU Section"
+            },
+            "converter": {
+                "title": "Converter",
+                "mb": "Enter your number in MB",
+                "gb": "Enter your number in GB"
+            },
+            "ips": {
+                "ip6subnet": "Number of IPv6 Address",
+                "ip6": "Number of IPv6 Subnets",
+                "internalips": "Number of Internal IP Address",
+                "ips": "Number of IPs"
+            }
+        },
+        "panel": {
+            "button": "Login",
+            "start": "Start",
+            "stop": "Stop",
+            "powerstop": "Power stop",
+            "restart": "Restart",
+            "os_name": "Os",
+            "bandwidth": "Bandwidth",
+            "ram": "RAM",
+            "virt": "Virtualization",
+            "cpu": "CPU",
+            "disk": "Disk space",
+            "cores": "Cores",
+            "in": "In",
+            "out": "Out",
+            "usage": "Usage",
+            "information": "Hosting information",
+            "uptime": "Uptime",
+            "reset": "Reset",
+            "problem": "You have a problem with the hosting ?",
+            "openticket": "Open ticket!"
+        },
+        "admin": {
+            "title": "Virtualizor Configuration",
+            "subtitle": "Manage the offer configurations.",
+            "planname": "Plan name"
+        },
+        "config": {
+            "title": "Virtual Server configuration",
+            "subtitle": "Manage the characteristics of the offer."
+        },
+        "converter": {
+            "title": "Converter",
+            "mb": "Enter your number in MB",
+            "gb": "Enter your number in GB"
+        }
+    }
+}

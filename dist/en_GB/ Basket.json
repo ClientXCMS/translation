@@ -1,0 +1,15 @@
+{
+    "data.qty": "Data\/Quantity",
+    "basket": {
+        "title": "Basket",
+        "empty": "Empty Basket",
+        "checkout": "Check-out",
+        "added": "Product successfully added.",
+        "cancel": "Payment successfully cancelled."
+    },
+    "data": "Data",
+    "out_stock": "Sold out",
+    "buy": "Buy",
+    "add_cart": "Add to cart",
+    "qty": "Quantity"
+}

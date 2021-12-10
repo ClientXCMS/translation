@@ -1,0 +1,137 @@
+{
+    "account": {
+        "service": {
+            "setuser": "You are now logged in as %email%.",
+            "logout": "You are now logged out of the account.",
+            "confirmed": "Account successfully confirmed",
+            "note": {
+                "added": "Note successfully added.",
+                "removed": "Note successfully withdrawn."
+            },
+            "security": {
+                "update": "Updated security settings."
+            },
+            "status": {
+                "update": "Updated user status."
+            }
+        },
+        "edit": {
+            "update": "Updated user data."
+        },
+        "password": {
+            "update": "Updated password."
+        },
+        "forms": {
+            "security": {
+                "IpsIgnoreOnLogin": "IPs for which do not send e-mail",
+                "IpsIgnoreOnLoginsub": "Separated by commas",
+                "EmailNotificationOnLogin": "Receive an e-mail when you log in"
+            },
+            "newsletter": "Join our mailing list"
+        },
+        "details": {
+            "title": "Your Informations"
+        },
+        "emails": {
+            "title": "Your emails received"
+        },
+        "client": {
+            "title": "Client area",
+            "pinned_product": "Our pinned products"
+        },
+        "resend": {
+            "success": "The confirmation e-mail has been sent to the registration e-mail.",
+            "button": "Resend email"
+        },
+        "signup": {
+            "accepttos": "I have read and accept the",
+            "tos": "Terms and conditions of use",
+            "needpwd": "Need a password?",
+            "clickhere": "Click here",
+            "logohero": "Create an account with us today",
+            "title": "Registration",
+            "alreadyclient": "Already a customer?",
+            "success": "A confirmation e-mail has been sent to %email%.",
+            "email": {
+                "title": "Account confirmation email",
+                "content": "For security reasons, we need to verify your identity to confirm the verification of your email address, please click on the button below",
+                "button": "Confirm my account"
+            }
+        },
+        "flash": {
+            "suspended": "Your account has been suspended, your access is now forbidden. For more details contact an administrator.",
+            "banned": "Your account has been banned, your access is now forbidden. For more details contact an administrator.",
+            "waiting": "Your account is on hold, your access is now restricted. <a href='%route%'>Send<\/a>.",
+            "ghost": "You must have an account to access this page."
+        },
+        "reset": {
+            "invalidtoken": "The reset link you followed is invalid. Please try again",
+            "success": "Password reset performed.",
+            "title": "Reset password",
+            "logohero": "Please enter your new password to validate the reset.",
+            "button": "Reset",
+            "step1": "Please enter your email address to initiate the reset",
+            "step2": "Please enter your new password to validate the reset"
+        },
+        "login": {
+            "last_login": "Your last connections",
+            "tomanybadcredentials": "The account has been locked due to too many login attempts",
+            "tologin": "Log in",
+            "title": "Log In",
+            "logohero": "Log in to access the customer area",
+            "remember": "Remember me",
+            "nocustomeryet": "Not yet a customer?",
+            "norecord": "Incorrect login or password",
+            "admin": {
+                "subtitle": "Login to access the administration"
+            },
+            "email": {
+                "subject": "New login to your account",
+                "content1": "We have detected a new connection to your account",
+                "content2": "Emplacement: %localization%",
+                "content3": "IP Adress: %ipaddress%",
+                "content4": "If it is you, you can delete this message. However, if it is not you, remember to change your password now, we are in no way responsible for actions taken on your account in case of hacking."
+            }
+        },
+        "forgot": {
+            "title": "Forgot your password?",
+            "success": "Please check your emails to continue the process",
+            "email": {
+                "title": "Password reset email",
+                "content": "Are you a bit forgetful and have forgotten your password?\r\n                Don't panic, you can now reinstall your password by clicking below. ",
+                "button": "Reinstall my password"
+            }
+        },
+        "activity": {
+            "title": "Activity history"
+        },
+        "states": {
+            "Pending": "Pending users",
+            "Actived": "Active users",
+            "Banned": "Banned users",
+            "Suspended": "Suspended users"
+        },
+        "admin": {
+            "title": "Users",
+            "subtitle": "Manage the users of the system.",
+            "ceatetitle": "Account creation",
+            "edittitle": "Edit account",
+            "note": "User Note",
+            "confirmationLink": "Confirmation link",
+            "resetLink": "Reset link",
+            "emailOnlogin": "Email on login",
+            "confirm": "Automatically confirm user",
+            "security": "Account security",
+            "resetAt": "Reset At",
+            "state": "Account State",
+            "login": "Log in as a customer",
+            "createdAt": "Registered on",
+            "lastSignAt": "Last logged on",
+            "lastSignIp": "Last logged with",
+            "confirmedAt": "Confirmed At",
+            "informations": "Account Information",
+            "emptypassword": "left blank for no modification.",
+            "log": "Account History"
+        }
+    }
+}

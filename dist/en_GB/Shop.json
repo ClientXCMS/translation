@@ -1,0 +1,316 @@
+{
+    "your_services": "Your services",
+    "your_orders": "Your orders",
+    "our_products": "Our products",
+    "order_product": "Order product",
+    "remaining_time": "Remaining time",
+    "order2": "Order",
+    "active_services": "Active services",
+    "see_product": "See products",
+    "active": "Activation",
+    "porcentage": "Percentage",
+    "coupon": "Coupon",
+    "coupons": "Coupons",
+    "day_orders": "Days orders",
+    "services": "Services",
+    "for": "For",
+    "reason": "Reason",
+    "products": "Products",
+    "groups": "Groups",
+    "group": "Group",
+    "discounts": "Discounts",
+    "couponmessages": {
+        "success": "Coupon added successfully",
+        "error": "Coupon is invalid",
+        "recalculate": "Coupon updated"
+    },
+    "servicestate": {
+        "Pending": "Delivery in process",
+        "Online": "Online",
+        "Terminated": "Terminated",
+        "Suspended": "Suspended",
+        "Expired": "Expired",
+        "Refunded": "Refounded"
+    },
+    "transactionstates": {
+        "Refused": "Refused",
+        "Completed": "Completed",
+        "Cancelled": "Cancelled",
+        "Refunded": "Refunded",
+        "Pending": "Pending"
+    },
+    "serviceactions": {
+        "rename": {
+            "length": "Service name must be between 1 and 100 characters long.",
+            "success": "Service name modified successfully."
+        },
+        "recurring": {
+            "success": "Billing cycle modified successfully.",
+            "error": "Cannot change billing cycle."
+        },
+        "password": {
+            "success": "Password modified successfully.",
+            "length": "Service name must be 8 characters long.",
+            "error": "Cannot change password."
+        },
+        "renew": {
+            "success": "Renewal completed",
+            "cancel": "Renewal canceled."
+        },
+        "transactions": {
+            "success": "Transaction completed.",
+            "cancel": "Transaction cancelled."
+        }
+    },
+    "servicespage": {
+        "renewtitle": "Renewal manager",
+        "autoterminate": "End scheduled in",
+        "created_at": "Created At",
+        "recurring": "Recurring",
+        "expire_at": "Expire At",
+        "recurringcycle": "Billing cycle",
+        "servicename": "Service name",
+        "title": "Service management",
+        "password": "Change password",
+        "autorenew": "Automatic renew",
+        "autorenewdesc": "You will be charged <b>%price%<\/b> every <b>%months% months <\/b> from %date%",
+        "autorenewcancel": "Cancel subscription",
+        "autorenewdesc2": "You will be charged <b>%price% <\/b> on the next %date%",
+        "noc": "Localization",
+        "price": "Price",
+        "renew": "Renew",
+        "terminate": "Terminate",
+        "refund": "Refund",
+        "suspend": "Suspend",
+        "unsuspend": "Unsuspend",
+        "changestate": "State changed successfully."
+    },
+    "order_comment": {
+        "label": "Comment",
+        "placeholder": "Comment on your order."
+    },
+    "ordershow": {
+        "order": {
+            "title": "Order tracking N °%id%"
+        },
+        "items": {
+            "title": "Order summary",
+            "pending": "Delivery in preparation",
+            "delivred": "Delivery made on %date%",
+            "refunded": "Delivery refunded on %date%"
+        },
+        "history": {
+            "title": "Your order history"
+        }
+    },
+    "transactionpage": {
+        "issuedby": "Issued by",
+        "delivred": "Delivery",
+        "success": "Successully",
+        "pending": "In progress",
+        "make": "Pay now",
+        "id": "Identifier",
+        "info": "Transaction Information",
+        "items": "No. items",
+        "summary": "Order summary",
+        "refunded": "Refunded",
+        "summarysub": "Not all items here can be deleted."
+    },
+    "best_sales": "Best sales",
+    "discount": "Discount",
+    "your_quotes": "Your quotes",
+    "your_quote": "Your quote",
+    "your_order": "Your order",
+    "your_transactions": "Your transactions",
+    "coupon_input": "Coupon code",
+    "checkout_empty": "You currently have no products in your order.",
+    "errorallowqty": "You cannot order the product %productname% a second time!",
+    "must_auth": "You must be logged in to order",
+    "must_confirmed": "You must be confirmed to order",
+    "free": "Free",
+    "onetime": "One time",
+    "recurring": "Recurrent",
+    "deals": "Deals",
+    "pay_with": "Pay with",
+    "payment_cancel": "Payment cancelled successfully.",
+    "order": "Order",
+    "paymenttype": "Payment type",
+    "domaindata": {
+        "title": "Choose domain",
+        "headingUpdate": "Using an existing domain name and updating name servers",
+        "headingSubdomain": "Use a sub-domain of %app_name%"
+    },
+    "note": "Note",
+    "quotestate": {
+        "Refused": "Refused",
+        "Accepted": "Accepted",
+        "Pending": "Pending",
+        "Draft": "Draft"
+    },
+    "emailtemplates": {
+        "createservice": {
+            "title": "Service delivred successfully",
+            "content": "We thank you for this purchase. We hope you like service.",
+            "content1": "Our process has just finished creating your service.",
+            "content2": "Here is what information about your service:",
+            "button": "My Service"
+        }
+    },
+    "walletinsufficient": "Your balance is insufficient",
+    "return": {
+        "title": "Tracking your order",
+        "btn": "More details",
+        "Pending": {
+            "state": "Pending",
+            "title": "Order placed on hold.",
+            "content": "Your order has just been put on hold."
+        },
+        "Cancelled": {
+            "state": "Cancelled",
+            "title": "Order cancelled.",
+            "content": "Your order has just been cancelled."
+        },
+        "Completed": {
+            "state": "Completed",
+            "title": "Order validated successfully.",
+            "content": "Your order has just been validated"
+        },
+        "Refused": {
+            "state": "Refused",
+            "title": "Order refused.",
+            "content": "Please contact support for more information."
+        },
+        "Refunded": {
+            "state": "Refunded",
+            "title": "Order refunded.",
+            "content": "Your order has just been refunded."
+        }
+    },
+    "shopadmin": {
+        "dashboard": {
+            "transactions": "Transactions made"
+        },
+        "banner": {
+            "title": "Add an information banner to your client area",
+            "content": "Content",
+            "background": "Background"
+        },
+        "subdomains": {
+            "title": "Sub-domains",
+            "subtitle": "Manage the subdomains of the system.",
+            "domain": "Domain",
+            "type": "Type"
+        },
+        "board": {
+            "title": "Earn table",
+            "subtitle": "Here is the current Earn statement.",
+            "conversionRate": "Conversion Rate",
+            "frombeginning": "From the beginning",
+            "others": "Unfinished orders",
+            "completed": "Finished orders",
+            "overview": "Overview",
+            "counts": {
+                "today": "Today",
+                "monthly": "This monthly",
+                "yearly": "This yearly",
+                "alltime": "All time",
+                "since": "Since last month",
+                "last": "Last year"
+            }
+        },
+        "coupon": {
+            "title": "Coupons",
+            "subtitle": "Manage the Coupons of the store.",
+            "amount": "Minimum basket amount to access this coupon",
+            "maxuses": "Number of authorized uses (0 = No limit)",
+            "onceperclient": "Allow only one use per customer",
+            "usage": "Number of usage",
+            "need": "Restrict coupon code to specific products already owned by the customer"
+        },
+        "quotes": {
+            "title": "Quotes",
+            "subtitle": "Manage the quotes of the system.",
+            "note_admin": "Note for admin",
+            "note": "Note for customer",
+            "info": "Quote info",
+            "details": "Quote details",
+            "description": "Description",
+            "maketransaction": "Make transaction",
+            "refuse": "Refuse quote",
+            "accept": "Accept quote",
+            "seetransaction": "See transaction"
+        },
+        "domains": {
+            "title": "Domains",
+            "subtitle": "Manage the domains of the system.",
+            "domain": "Domain",
+            "type": "Type"
+        },
+        "group": {
+            "title": "Groups",
+            "subtitle": "Manage the groups of the store.",
+            "headline": "Head Line",
+            "col": "Number of columns (up to 12)",
+            "name": "Group name",
+            "add": "Add a product in this group",
+            "seeinclientarea": "See in clientarea",
+            "delete": "Delete group",
+            "products": "Products associated with the group"
+        },
+        "discount": {
+            "title": "Discounts",
+            "subtitle": "Manage the discounts of the store.",
+            "global": "Should the discount be active on the entire store?",
+            "start_at": "Start",
+            "end_at": "End"
+        },
+        "services": {
+            "title": "Services",
+            "subtitle": "Manage the services of the system."
+        },
+        "orders": {
+            "title": "Orders",
+            "subtitle": "Manage the orders of the system.",
+            "confirmed": "Confirmed",
+            "data": "Manager the data order %id%",
+            "webhook": {
+                "variables": "Available variable",
+                "url": "Webhook url",
+                "title": "Run webhook on order"
+            }
+        },
+        "transaction": {
+            "title": "Transactions",
+            "subtitle": "Manage the transactions of the store.",
+            "info": "Transaction Information"
+        },
+        "transactiontemplate": {
+            "title": "Transactions",
+            "subtitle": "Manage the transactions via made %type% of the store."
+        },
+        "product": {
+            "config": "Product configuration",
+            "autocreate": "Automatic create service",
+            "title": "Products",
+            "group": "Group",
+            "showdomainoptions": "Show domain option",
+            "stockcontrol": "Stock control",
+            "subtitle": "Manage the products of the store",
+            "allowqty": "Allow multiple services per customer",
+            "stock": "Stocks",
+            "link": "Link for add product",
+            "order": "Order",
+            "name": "Product name",
+            "recurringcycles": "Limit the number of renewals for a subscription (0 = Unlimited)",
+            "autoterminatedays": "Number of days before termination of the offer",
+            "autoterminate": "Fixed-term activation (eg free trials, limited-time products)",
+            "recurringcyclestitle": "Limit (0 = Unlimited)",
+            "paymenttypes": {
+                "title": "Payment type",
+                "free": "Free",
+                "onetime": "One time",
+                "recurring": "Recurrent"
+            }
+        }
+    }
+}

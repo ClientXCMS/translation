@@ -1,0 +1,71 @@
+{
+    "proxmox": {
+        "config": {
+            "title": "Proxmox",
+            "subtitle": "Configue your proxmox offer here"
+        },
+        "os": "Os",
+        "hostname": "Host",
+        "memory": "Memory",
+        "net": "Net",
+        "bwlimit": "Bandwidth",
+        "disk": "Disk space",
+        "unlimited": "Unlimited",
+        "cores": "Cores",
+        "informations": "Informations",
+        "cpuunits": "CPU",
+        "uptime": "Uptime",
+        "tasks": "Tasks",
+        "cpu": "CPU",
+        "network": {
+            "title": "Network",
+            "gw": "Gateway",
+            "ip": "IP Address",
+            "name": "Name",
+            "bridge": "Bridge",
+            "hwaddr": "Mac Address",
+            "type": "Type"
+        },
+        "reinstall": {
+            "title": "Reinstall",
+            "remaining": "You have %remaining% allowed reinstall.",
+            "limit": "You have reached the maximum number of reinstall allowed.",
+            "success": "Reinstall in progress."
+        },
+        "form": {
+            "title": "Promox Configuration",
+            "global": {
+                "title": "Global information"
+            },
+            "converter": {
+                "title": "Converter",
+                "mb": "Enter your number in MB",
+                "gb": "Enter your number in GB"
+            },
+            "restrictions": {
+                "title": "Restrictions",
+                "snapshot": "Number of snapshots allowed",
+                "reinstall": "Number of reinstall allowed",
+                "nolimit": "0 for no limit"
+            }
+        },
+        "start": "Start",
+        "stop": "Stop",
+        "shutdown": "Power stop",
+        "reboot": "Restart",
+        "snapshots": {
+            "title": "Snapshots",
+            "remaining": "You have %remaining% allowed snapshots.",
+            "limit": "You have reached the maximum number of snapshots allowed.",
+            "success": "Snapshot saved.",
+            "success2": "Snapshot deleted.",
+            "success3": "Snapshot rollback."
+        },
+        "admin": {
+            "title": "Promox Configuration",
+            "subtitle": "Manager offers configurations.",
+            "productname": "Product name",
+            "type": "Type"
+        }
+    }
+}

@@ -1,0 +1,318 @@
+{
+    "your_services": "Vos services",
+    "your_orders": "Vos commandes",
+    "our_products": "Nos produits",
+    "order_product": "Commander un produit",
+    "remaining_time": "Temps restant",
+    "order2": "Commande",
+    "day_orders": "Commandes du jours",
+    "active_services": "Services actifs",
+    "see_product": "Voir les produits",
+    "active": "Activation",
+    "porcentage": "Pourcentage",
+    "coupon": "Promotion",
+    "coupons": "Promotions",
+    "services": "Services",
+    "for": "Pour",
+    "reason": "Raison",
+    "products": "Produits",
+    "groups": "Groupes",
+    "group": "Groupe",
+    "discounts": "Réductions",
+    "servicestate": {
+        "Pending": "Livraison en cours",
+        "Online": "En ligne",
+        "Terminated": "Terminé",
+        "Suspended": "Suspendu",
+        "Expired": "Expiré",
+        "Refunded": "Remboursé"
+    },
+    "couponmessages": {
+        "success": "Code promo ajouté avec succès",
+        "error": "Code promo invalide",
+        "recalculate": "Code promo mis à jour"
+    },
+    "transactionstates": {
+        "Refused": "Refusée",
+        "Completed": "Complétée",
+        "Cancelled": "Annulée",
+        "Refunded": "Remboursée",
+        "Pending": "En attente"
+    },
+    "serviceactions": {
+        "rename": {
+            "length": "Le nom du service doit être entre 1 et 100 caractères.",
+            "success": "Nom de service modifié avec succès."
+        },
+        "password": {
+            "length": "Le nom du service doit être au miniumu de 9 caractères.",
+            "success": "Mot de passe modifié avec succès.",
+            "error": "Impossible de modifier le mot de passe de facturation."
+        },
+        "recurring": {
+            "success": "Cycle de facture modifié avec succès.",
+            "error": "Impossible de modifier le cycle de facturation."
+        },
+        "renew": {
+            "success": "Renouvellement du service effectué avec succès.",
+            "cancel": "Renouvellement du service annulé."
+        },
+        "transactions": {
+            "success": "Transaction effectuée avec succès.",
+            "cancel": "Transaction annulée."
+        }
+    },
+    "servicespage": {
+        "renewtitle": "Gestion du renouvellement",
+        "password": "Modifier le mot de passe",
+        "autoterminate": "Fin programmé dans",
+        "created_at": "Date de création",
+        "recurring": "Facturation",
+        "expire_at": "Date d'expiration",
+        "recurringcycle": "Cycle de facturation",
+        "servicename": "Nom du service",
+        "autorenew": "Renouvellement automatique",
+        "autorenewdesc": "Vous serez débité de <b>%price%<\/b> tout les <b>%months% mois<\/b> à partir du %date%",
+        "autorenewcancel": "Annuler l'abonnement",
+        "autorenewdesc2": "Vous serez débité de <b>%price%<\/b> le %date% prochain",
+        "title": "Gestion de service",
+        "noc": "Localisation",
+        "price": "Prix",
+        "changestate": "Etat modifié avec succès.",
+        "renew": "Renouveler",
+        "terminate": "Terminer",
+        "suspend": "Suspendre",
+        "unsuspend": "Réactiver",
+        "refund": "Rembourser"
+    },
+    "order_comment": {
+        "label": "Commentaire",
+        "placeholder": "Commentaire sur votre commande."
+    },
+    "ordershow": {
+        "order": {
+            "title": "Suivi de la commande N°%id%"
+        },
+        "items": {
+            "title": "Résumé de la commande",
+            "pending": "Livraison en cours de préparation",
+            "delivred": "Livraison effectuée le %date%",
+            "refunded": "Livraison remboursée le %date%"
+        },
+        "history": {
+            "title": "Historique de votre commande"
+        }
+    },
+    "transactionpage": {
+        "issuedby": "Émise par",
+        "delivred": "Livraison",
+        "success": "Effectuée",
+        "refunded": "Remboursée",
+        "pending": "En cours",
+        "make": "Payer maintenant",
+        "id": "Identifiant",
+        "info": "Informations de la transaction",
+        "items": "Nb. Objet",
+        "summary": "Récapitulatif de la commande",
+        "summarysub": "Tous les éléments ici ne peuvent pas être supprimés."
+    },
+    "best_sales": "Meilleurs ventes",
+    "discount": "Réduction",
+    "your_order": "Votre commande",
+    "your_quotes": "Vos devis",
+    "your_quote": "Votre devis",
+    "your_transactions": "Vos transactions",
+    "coupon_input": "Code promotionel",
+    "checkout_empty": "Vous avez actuellement aucun produit dans votre commande.",
+    "errorallowqty": "Vous ne pouvez pas commander une seconde fois le produit %productname% !",
+    "must_auth": "Vous devez être authentifié pour commander.",
+    "must_confirmed": "Vous devez être confirmé pour commander.",
+    "free": "Gratuit",
+    "onetime": "À vie",
+    "recurring": "Récurrent",
+    "deals": "Deals & Bon plan",
+    "pay_with": "Payer avec",
+    "payment_cancel": "Paiement annulé avec succès.",
+    "order": "Commander",
+    "paymenttype": "Type de paiement",
+    "domaindata": {
+        "title": "Choisir un domaine",
+        "headingUpdate": "Utiliser un nom de domaine existant et mettre à jour les serveurs de noms",
+        "headingSubdomain": "Utiliser un sous domaine de %app_name%"
+    },
+    "note": "Note",
+    "emailtemplates": {
+        "createservice": {
+            "title": "Livraison Service",
+            "content": "Nous vous remercions pour cet achat. Nous espérons que vous aimeriez le service.",
+            "content1": "Notre processus vient de terminer la création de votre service.",
+            "content2": "Voici quelles informations sur votre service:",
+            "button": "Mon service"
+        }
+    },
+    "walletinsufficient": "Votre solde est insuffisant.",
+    "quotestate": {
+        "Refused": "Refusée",
+        "Accepted": "Accepté",
+        "Pending": "En attente",
+        "Draft": "Brouillon"
+    },
+    "return": {
+        "title": "Suivi de votre commande",
+        "btn": "Plus de détails",
+        "Pending": {
+            "state": "En attente",
+            "title": "Commande mise en attente.",
+            "content": "Votre commande vient d'être mise en attente."
+        },
+        "Completed": {
+            "state": "Complétée",
+            "title": "Commande validée avec succès.",
+            "content": "Votre commande vient d'être validée."
+        },
+        "Cancelled": {
+            "state": "Anulée",
+            "title": "Commande Anulée.",
+            "content": "Votre commande vient d'être annulée."
+        },
+        "Refused": {
+            "state": "Refusée",
+            "title": "Commande refusée.",
+            "content": "Rapprochez vous du support pour plus d'informations."
+        },
+        "Refunded": {
+            "state": "Remboursée",
+            "title": "Commande remboursée avec succès.",
+            "content": "Votre commande vient d'être remboursée."
+        }
+    },
+    "shopadmin": {
+        "dashboard": {
+            "transactions": "Transactions effectuées."
+        },
+        "quotes": {
+            "title": "Devis",
+            "subtitle": "Administrez les devis du système.",
+            "note_admin": "Note pour l'administrateur",
+            "note": "Note pour le client",
+            "info": "Information du devis",
+            "details": "Details du devis",
+            "description": "Description",
+            "maketransaction": "Créer la transaction",
+            "refuse": "Refuser le devis",
+            "accept": "Accepter le devis",
+            "seetransaction": "Voir la transaction"
+        },
+        "orders": {
+            "title": "Commandes",
+            "subtitle": "Administrez les commandes du système.",
+            "confirmed": "Confirmé",
+            "data": "Administrez les données de la commande %id%",
+            "webhook": {
+                "variables": "Variables disponibles",
+                "url": "URL de la webhook",
+                "title": "Executer une webhook lors d'une commande"
+            }
+        },
+        "domains": {
+            "title": "Domaines",
+            "subtitle": "Administrez les domaines du système.",
+            "domain": "Domaine",
+            "type": "Type"
+        },
+        "subdomains": {
+            "title": "Sous domaines",
+            "subtitle": "Administrez les sous domaines du système.",
+            "domain": "Domaine",
+            "type": "Type"
+        },
+        "coupon": {
+            "title": "Code promotionnel",
+            "subtitle": "Administrez les codes promotionnel de la boutique.",
+            "amount": "Autoriser ce code promo à partir d'un montant du panier",
+            "maxuses": "Nb utilisations autorisées (0 = Sans limite)",
+            "onceperclient": "Autoriser une seule utilisation par client",
+            "need": "Restreindre ce code promo à certains produits déjà possédés par le client ?",
+            "usage": "Nb utilisation"
+        },
+        "group": {
+            "title": "Groupes",
+            "subtitle": "Administrez les groupes de la boutique.",
+            "headline": "Gros titre",
+            "col": "Nombre de colonnes (jusqu'à 12)",
+            "name": "Nom du groupe",
+            "add": "Ajouter un produit à groupe",
+            "seeinclientarea": "Voir sur l'espace client",
+            "delete": "Supprimer ce groupe",
+            "products": "Produits associés à ce groupe"
+        },
+        "discount": {
+            "title": "Réductions",
+            "subtitle": "Administrez les remises de la boutique.",
+            "global": "La remise doit-elle être active sur toute la boutique?",
+            "start_at": "Début",
+            "end_at": "Fin"
+        },
+        "services": {
+            "title": "Services",
+            "subtitle": "Administrez les services du système."
+        },
+        "board": {
+            "title": "Tableau des revenues",
+            "subtitle": "Voici l'état actuel des revenues.",
+            "conversionRate": "Taux de conversion",
+            "frombeginning": "Depuis le début",
+            "others": "Commandes non finalisées",
+            "completed": "Commandes finalisées",
+            "overview": "Aperçus",
+            "counts": {
+                "today": "Aujourd'hui",
+                "monthly": "Ce mois ici",
+                "yearly": "Cette année",
+                "alltime": "Depuis toujours",
+                "since": "Depuis le dernier mois",
+                "last": "L'année dernière"
+            }
+        },
+        "banner": {
+            "title": "Ajouter une bannière d'information à votre espace client",
+            "content": "Contenu",
+            "background": "Arrière plan"
+        },
+        "transaction": {
+            "title": "Transactions",
+            "subtitle": "Administrez les transactions effectuées sur le système.",
+            "info": "Informations sur la transaction"
+        },
+        "transactiontemplate": {
+            "title": "Transactions",
+            "subtitle": "Administrez les transactions faites via %type% sur le système."
+        },
+        "product": {
+            "config": "Configuration du produit",
+            "title": "Produits",
+            "group": "Groupe",
+            "showdomainoptions": "Affichage de l'option domaine",
+            "stockcontrol": "Contrôle du stocks",
+            "subtitle": "Administrez les produits de la boutique.",
+            "allowqty": "Autoriser plusieurs services par client",
+            "stock": "Stock",
+            "order": "Ordre",
+            "name": "Nom du produit",
+            "autocreate": "Créer automatiquement le service",
+            "welcomeemail": "--",
+            "link": "Lien pour ajouter le produit",
+            "recurringcycles": "Limitation du de nombre de renouvellements pour une souscription (0 = Illimité)\r\n",
+            "autoterminatedays": "Nombre de jours avant la résiliation de l'offre",
+            "autoterminateemail": "--",
+            "autoterminate": "Activation durée déterminée (ex essais gratuits, produits à durée limitée)",
+            "recurringcyclestitle": "Limite (0 = Illimité)",
+            "paymenttypes": {
+                "title": "Type de paiement",
+                "free": "Gratuit",
+                "onetime": "À vie",
+                "recurring": "Récurrent"
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "proxmox": {
+        "os": "OS",
+        "hostname": "Hôte",
+        "memory": "Mémoire",
+        "bwlimit": "Bande passante",
+        "disk": "Espace disque",
+        "cores": "Coeurs",
+        "cpuunits": "CPU",
+        "net": "Net",
+        "tasks": "Tâches",
+        "uptime": "Uptime",
+        "cpu": "CPU",
+        "button": "Connexion",
+        "informations": "Informations",
+        "start": "Démarrer",
+        "stop": "Eteindre",
+        "shutdown": "Tuer",
+        "unlimited": "Ilimité",
+        "network": {
+            "title": "Réseau",
+            "gw": "Passerelle",
+            "ip": "Adresse IP",
+            "name": "Nom",
+            "bridge": "Pont",
+            "hwaddr": "Adresse MAC",
+            "type": "Type"
+        },
+        "reboot": "Redémarrer",
+        "snapshots": {
+            "title": "Snapshots",
+            "remaining": "Il vous reste %remaining% snapshots autorisés.",
+            "limit": "Vous avez atteint le maximum de snapshots autorisées.",
+            "success": "Snapshot enregistrée.",
+            "success2": "Snapshot supprimée.",
+            "success3": "Snapshot rollback."
+        },
+        "reinstall": {
+            "title": "Réinstallations",
+            "remaining": "Il vous reste %remaining% réinstallations autorisés.",
+            "limit": "Vous avez atteint le maximum de réinstallation autorisées.",
+            "success": "Réinstallation en cours."
+        },
+        "config": {
+            "title": "Proxmox",
+            "subtitle": "Configurer votre offre Proxmox ici"
+        },
+        "form": {
+            "title": "Configuration proxmox",
+            "global": {
+                "title": "Informations globales"
+            },
+            "restrictions": {
+                "title": "Restrictions",
+                "snapshot": "Nb de snapshot autorisées",
+                "reinstall": "Nb de réinstallations autorisées",
+                "nolimit": "0 pour aucune limite"
+            },
+            "converter": {
+                "title": "Convertisseur",
+                "mb": "Tapez votre chiffre en MB",
+                "gb": "Tapez votre chiffre en GB"
+            }
+        },
+        "admin": {
+            "ipaddress": {
+                "title": "Configuration des IP",
+                "subtitle": "Administez les différentes adresses IP.",
+                "used": "Utilisée ?",
+                "mac_address": "Adresse MAC",
+                "gateway": "Passerelle"
+            },
+            "title": "Configuration Proxmox",
+            "subtitle": "Administez les différentes configurations d'offre.",
+            "productname": "Nom du produit",
+            "type": "Type"
+        }
+    }
+}

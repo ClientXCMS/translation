@@ -1,0 +1,15 @@
+{
+    "data.qty": "Données\/Quantité",
+    "basket": {
+        "title": "Panier",
+        "empty": "Panier vide",
+        "checkout": "Check-out",
+        "added": "Produit ajouté avec succès.",
+        "cancel": "Paiement annulé avec succès."
+    },
+    "data": "Données",
+    "out_stock": "Rupture de stock",
+    "buy": "Acheter",
+    "add_cart": "Ajouter au panier",
+    "qty": "Quantité"
+}

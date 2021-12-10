@@ -1,0 +1,278 @@
+{
+    "admin": {
+        "switchtheme": "Change theme",
+        "backtoadmin": "Back to administration",
+        "backtosite": "Back to the website",
+        "documentation": "Documentation",
+        "support": "Support",
+        "database": {
+            "title": "Database",
+            "subtitle": "Database management",
+            "available_actions": "Actions available",
+            "main": "For more information on how to use phinx, its commands and its many options",
+            "clickhere": "Click here",
+            "version": "Version",
+            "start_at": "Start time",
+            "end_at": "End time",
+            "endpoint": "Stopping point",
+            "list": "List of migrations already carried out",
+            "seed": "The Seed command runs all available seed classes. For more options and informations",
+            "migrate": "The Migrate command performs all available migrations. For more options and information",
+            "rollback": "The Rollback command is used to undo previous migrations performed by Phinx. For more options and information"
+        },
+        "themes": {
+            "title": "Themes",
+            "subtitle": "Home subtitle",
+            "author": "Author",
+            "actual": "Current theme",
+            "viewspath": "Path of views",
+            "templatesPath": "Main view path",
+            "assetsPath": "Path of assets",
+            "ComponentPath": "Component path",
+            "PluginsPath": "Plugin path",
+            "downloaded": "Downloaded themes",
+            "apptitle": "Application title",
+            "appmobile": "Application title for mobile",
+            "htmlsupport": "HTML support is enabled for the app title.",
+            "titlehome": "Title Home",
+            "primary": "Primary color (Stisla and Majestic only)"
+        },
+        "dashboard": {
+            "subtitle": "Welcome to your CLIENTXCMS board",
+            "isLatestVersion": "CLIENTXCMS is currently in %version%",
+            "isBetaOrAlpha": "CLIENTXCMS is currently in %version%. <a href='%route%'>Report a problem<\/a>",
+            "statistics": "Hosting statistics",
+            "statistiquessub": "Find the statistics of your host, whether it is the last registrations, the generated invoices and the active services, everything is there!"
+        },
+        "firewall": {
+            "title": "Firewall",
+            "subtitle": "Identity Verification & Authorisation",
+            "confirm": "Confirm your password to continue",
+            "content": "You enter an administrative area of ClientXCMS and must confirm your password to continue",
+            "confirmation": "do you really want to disconnect from the firewall?",
+            "btn": "Confirm",
+            "logout_btn": "Exit the firewall",
+            "actions": {
+                "badpwd": "Bad password",
+                "success": "Authorisation granted",
+                "logout": "Successfully disconnected."
+            }
+        },
+        "license": {
+            "title": "Licence",
+            "subtitle": "Information related to your licence.",
+            "registar": "Registered by",
+            "key": "Licence Key",
+            "type": "Type of licence",
+            "max": "No. of Authorised clients",
+            "customers": "No. of Clients on system",
+            "domain": "Authorized domain (s)",
+            "expire": "Expiry",
+            "types": {
+                "dev": "Development",
+                "prod": "Production",
+                "demo": "Démonstration",
+                "gift": "Gift"
+            }
+        },
+        "modules": {
+            "title": "Modules",
+            "subtitle": "Available module.",
+            "folder": "File",
+            "actived": "Activated",
+            "support": "Online support",
+            "empty": "Unable to retrieve modules from the main website is currently unavailable. Please contact support",
+            "updated": "Last updated",
+            "changelogbtn": "See changelog",
+            "about": "About",
+            "changelog": "Changelog",
+            "warning": "By deactivating this module, it is possible that some page no longer works due to certain features which will no longer be added by this module on the system. Our support will not be able to help you in the event of a problem of this type.",
+            "enable": "Enable",
+            "disable": "Disable",
+            "refresh": "Force refresh",
+            "download": "Download",
+            "update": "Update",
+            "reinstall": "Reinstall",
+            "downloadsucess": "Module downloaded\/updated successfully.",
+            "config": {
+                "title": "Module Configuration",
+                "subtitle": "Configure your API keys for %name%."
+            }
+        },
+        "phpinfo": "PHPINFO",
+        "logs": {
+            "title": "History",
+            "subtitle": "Manage the history of CLIENXCMS",
+            "masseaction": "Mass action",
+            "checkall": "Select All",
+            "delete": "Delete",
+            "signal": "Report",
+            "deleteall": "Delete selected"
+        },
+        "report": {
+            "cron": {
+                "successoftask": "Task success",
+                "last_schedule": "Last Schedule",
+                "start_at": "Start",
+                "end_at": "End",
+                "failed": "Failed",
+                "output": "Output",
+                "exception": "Exception",
+                "invokenow": "Run now",
+                "delete": "Delete the oldest tasks",
+                "successfully": "Successfully",
+                "task": "Task #",
+                "time": "Time between two executions"
+            },
+            "general": {
+                "serverstate": "Server state",
+                "good": "Good",
+                "suspended": "Suspended services",
+                "expired": "Expired Services"
+            }
+        },
+        "settings": {
+            "cache": "Clear app cache",
+            "title": "Settings",
+            "subtitle": "Configure your CLIENTXCMS settings here.",
+            "saving": "Saving...",
+            "error": "Error",
+            "saved": "Saved",
+            "seo": {
+                "description": "Page description",
+                "keywords": "Key words",
+                "favicon": "Favicon",
+                "head": "HTML code to include in the head of all pages",
+                "body": "HTML code to include in the body of all pages",
+                "analytics": "ID google analytics",
+                "tawk": "ID Tawk.to"
+            },
+            "security": {
+                "title": "Authentication & Limitation",
+                "bannedemails": "Banned emails or domains upon registration",
+                "authminuts": "Minutes limiting connection",
+                "authlimit": "No. of attempt",
+                "authreset": "Time to reset your password",
+                "tosLinks": "Link to the TOS",
+                "captcha": {
+                    "title": "Protect your forms and avoid bots by securing with HCaptcha or Recapcha",
+                    "validatewith": "Validation with",
+                    "sitekey": "Site key",
+                    "secretkey": "Secret key",
+                    "recapcha": {
+                        "title": "Configure Google reCaptcha protection",
+                        "content": "You can get reCaptcha keys on the <a href=\"https:\/\/www.google.com\/recaptcha\/\" target=\"_ blank\" rel=\"noopener noreferrer\"> Google reCaptcha website <\/a>. You must use reCaptcha <strong> v2 invisible <\/strong> keys."
+                    },
+                    "hcaptcha": {
+                        "title": "Configure HCaptcha protection",
+                        "content": "You can get reCaptcha keys on the <a href=\"https:\/\/www.hcaptcha.com\/\" target = \"_ blank\" rel= \"noopener noreferrer\"> HCaptcha website <\/a>."
+                    }
+                }
+            },
+            "global": {
+                "vat": "Disable VAT",
+                "appname": "Hosting name",
+                "license": "License key",
+                "timezone": "Time zone",
+                "currency": "Currency",
+                "driver": "Image processing extension",
+                "locale": "Locale",
+                "prefix": "Client area prefix",
+                "logo": "Hosting Logo",
+                "scheme": "HTTP\/HTTPS",
+                "address": "Hosting address",
+                "disabled_wallet": "Disable wallet payment"
+            },
+            "mail": {
+                "mailfrom": "E-mail address used to send e-mails",
+                "sendwithsmtp": "Send via SMTP",
+                "password": "SMTP password",
+                "username": "SMTP user name",
+                "hostname": "SMTP host name",
+                "port": "SMTP port",
+                "encryption": "Encryption",
+                "title": "Try CLIENTXCMS messaging",
+                "content": "This is a test of the ClientXCMS messaging system. You are ready to send emails"
+            }
+        },
+        "confirmation": "Do you really want to do this action?",
+        "account": "User account",
+        "reports": {
+            "loginhistory": {
+                "emailsent": "Percentage of emails sent",
+                "login": "Number of connections per day"
+            },
+            "title": "Reports",
+            "overview": "Overview",
+            "subtitle": "The reports below provide an analysis of the data held in the system."
+        },
+        "staffs": {
+            "title": "Staff",
+            "subtitle": "Manage staff with access to the administration.",
+            "owner": "Owner",
+            "ownertext": "By enabling this option, the administrator could delete your own account without your permission. Give access to the right people"
+        },
+        "email": {
+            "title": "Send email",
+            "subtitle": "Manage system emails."
+        },
+        "roles": {
+            "title": "Roles & Permission",
+            "subtitle": "Manager roles permission.",
+            "info": "When the group is owner it has all the permissions.."
+        },
+        "update": {
+            "title": "Update",
+            "subtitle": "Manage system updates.",
+            "warning": "Before updating CLIENTXCMS, you should make a backup of your site!",
+            "download": "Download",
+            "unknown": "Cannot update CMS because master website is currently down or not available. Please contact support.",
+            "info": "The version <code>%version1%<\/code> of CLIENTXCMS is available and you are on version <code>%version2%<\/code>. The latest version of CLIENTXCMS is ready for download."
+        },
+        "bannedips": {
+            "title": "IP Banned",
+            "subtitle": "Manage the banned IP addresses.",
+            "punisher": "Punisher",
+            "definitive": "Final sanction",
+            "reason": "Reason for action",
+            "expire": "Expiry of the sanction",
+            "subtitleForCreate": "You can apply the same penalty for different IP addresses by separating them with commas."
+        },
+        "servers": {
+            "title": "Servers",
+            "nameservers": "Nameservers",
+            "details": "Server details",
+            "subtitle": "Manage the servers in the system",
+            "name": "Name of the Server",
+            "authentification": "Authentication",
+            "testconnect": "Test the connection",
+            "result": "Test result",
+            "statuscode": "Status code",
+            "data": "Returned data",
+            "add": {
+                "title": "Add a new server",
+                "subtitle": "Used to link a server to CLIENTXCMS"
+            },
+            "forms": {
+                "secure": "Security",
+                "primarynameserver": "Primary nameserver",
+                "username": "Username",
+                "password": "Password",
+                "monthlycost": "Monthly cost",
+                "customport": "Custom port",
+                "noc": "Location",
+                "secondarynameserver": "Second Nameserver",
+                "thirdnameserver": "Third Nameserver",
+                "fourthnameserver": "Fourth Nameserver",
+                "fifthnameserver": "Fifth Nameserver",
+                "type": "Type of server",
+                "maxaccounts": "Maximum no. of accounts"
+            }
+        }
+    },
+    "configuration": {
+        "update": "Configuration successfully saved.",
+        "delete": "Configuration successfully deleted.",
+        "create": "Configuration successfully created."
+    }
+}

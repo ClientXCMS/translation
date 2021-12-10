@@ -1,0 +1,39 @@
+{
+    "plesk": {
+        "form": {
+            "plan_name": "Nom du plan",
+            "title": "Configuration"
+        },
+        "config": {
+            "title": "Configurez votre offre Plesk",
+            "subtitle": "Administez les différentes caractèristiques de l'offre"
+        },
+        "admin": {
+            "title": "Configuration Plesk",
+            "subtitle": "Administez les différentes configurations d'offre.",
+            "planname": "Plan Plesk",
+            "productname": "Nom du produit",
+            "type": "Type"
+        },
+        "reseller": "Revendeur",
+        "hosting": "Hébergement",
+        "panel": {
+            "button": "Connexion automatique",
+            "preview": "Aperçu",
+            "webmail": "Accès Webmail",
+            "info": "Informations",
+            "site": "Site max",
+            "unlimited": "Illimité",
+            "opensite": "Ouvrir le site",
+            "information": "Informations sur l'hébergement",
+            "problem": "Vous avez un problème avec l'hébergement ?",
+            "openticket": "Ouvrir un ticket!",
+            "db": "Base de données max",
+            "subftp_users": "Sous FTP max",
+            "subdom": "Sous domaine max",
+            "parked": "Domaine max",
+            "maillists": "E-mail max",
+            "disk_space": "Espace disque"
+        }
+    }
+}

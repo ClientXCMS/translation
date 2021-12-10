@@ -1,0 +1,37 @@
+{
+    "cpanel": {
+        "form": {
+            "plan_name": "Nom du plan",
+            "title": "Configuration"
+        },
+        "config": {
+            "title": "Configurez votre offre cPanel",
+            "subtitle": "Administez les différentes caractèristiques de l'offre"
+        },
+        "admin": {
+            "title": "Configuration cPanel",
+            "subtitle": "Administez les différentes configurations d'offre.",
+            "planname": "Plan cPanel",
+            "productname": "Nom du produit",
+            "type": "Type"
+        },
+        "reseller": "Revendeur",
+        "hosting": "Hébergement",
+        "panel": {
+            "button": "Connexion automatique",
+            "preview": "Prévisualisation",
+            "webmail": "Accès à la Webmail",
+            "info": "Informations",
+            "information": "Informations sur l'hébergement",
+            "problem": "Vous avez un problème avec votre offre d'hébergement ?",
+            "openticket": "Ouvrez un ticket !",
+            "opensite": "Se rendre sur le site",
+            "sql": "Nombre maximum de bases de données",
+            "ftp": "Nombre maximum de comptes FTP",
+            "sub": "Nombre maximum de sous-domaines",
+            "parked": "Nombre maximum de domaines",
+            "pop": "Nombre maximum de listes d'adresses mail",
+            "disk": "Espace Disque Alloué"
+        }
+    }
+}

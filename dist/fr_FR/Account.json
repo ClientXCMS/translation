@@ -1,0 +1,135 @@
+{
+    "account": {
+        "states": {
+            "Pending": "Comptes en attente",
+            "Actived": "Comptes actives",
+            "Banned": "Comptes bannis",
+            "Suspended": "Comptes suspendus"
+        },
+        "service": {
+            "confirmed": "Compte utilisateur confirmé avec succès.",
+            "setuser": "Vous êtes maintenant connecté en tant que %email%.",
+            "logout": "Vous êtes maintenant déconnecté du compte.",
+            "note": {
+                "added": "Note ajoutée avec succès.",
+                "removed": "Note retirée avec succès."
+            },
+            "security": {
+                "update": "Paramètre de sécurité mis à jour."
+            },
+            "status": {
+                "update": "État de l'utilisateur mis à jour."
+            }
+        },
+        "edit": {
+            "update": "Données utilisateur mis à jour."
+        },
+        "password": {
+            "update": "Mot de passe mis à jour."
+        },
+        "forms": {
+            "security": {
+                "IpsIgnoreOnLogin": "IP pour lesquelles ne pas envoyer d'e-mail",
+                "IpsIgnoreOnLoginsub": "Séparées par des virgules",
+                "EmailNotificationOnLogin": "Recevoir un e-mail lors d'une connexion"
+            },
+            "newsletter": "Joignez-vous à notre liste d'envoi"
+        },
+        "details": {
+            "title": "Vos informations"
+        },
+        "emails": {
+            "title": "Vos emails reçus"
+        },
+        "client": {
+            "title": "Espace client",
+            "pinned_product": "Nos produits épinglés"
+        },
+        "resend": {
+            "success": "L'e-mail de confirmation a été envoyé à l'email d'inscription.",
+            "button": "Renvoyer le e-mail"
+        },
+        "signup": {
+            "accepttos": "J'ai lu et j'accepte les",
+            "tos": "Conditions d'utilisation",
+            "needpwd": "Besoin d'un mot de passe ?",
+            "clickhere": "Cliquez ici",
+            "logohero": "Créez un compte chez nous dès aujourd'hui.",
+            "title": "Inscription",
+            "alreadyclient": "Déjà client ?",
+            "success": "Un E-Mail de confirmation a été envoyé à %email%.",
+            "email": {
+                "title": "Courriel de confirmation de compte",
+                "content": "Pour des raisons de sécurité, nous devons vérifier votre identité pour confirmer la vérification de votre adresse email, veuillez cliquer sur le bouton ci-dessous",
+                "button": "Confirmer mon compte"
+            }
+        },
+        "flash": {
+            "suspended": "Votre compte a été suspendu, vos accès sont désormais interdits.",
+            "banned": "Votre compte a été bannis, vos accès sont désormais interdits. Pour plus de détails contactaient un administrateur.",
+            "waiting": "Votre compte est en attente, vos accès sont désormais restreints. <a href='%route%'>Renvoyer<\/a>.",
+            "ghost": "Vous devez posséder un compte pour accéder à cette page."
+        },
+        "reset": {
+            "invalidtoken": "Le lien de réinitialisation que vous avez suivie est invalide. Merci d'essayer à nouveau",
+            "success": "Réinitialisation du mot de passe effectuée.",
+            "title": "Réinitialiser de mot de passe",
+            "logohero": "Veuillez entrer votre nouveau mot de passe pour valider la réinitialisation.",
+            "button": "Réinitialiser",
+            "step1": "Veuillez entrer votre adresse courriel pour initier la réinitialisation.",
+            "step2": "Veuillez entrer votre nouveau mot de passe pour valider la réinitialisation."
+        },
+        "login": {
+            "last_login": "Vos dernières connexions",
+            "tomanybadcredentials": "Le compte a été verrouillé suite à de trop nombreuses tentatives de connexion.",
+            "tologin": "Se connecter",
+            "title": "Connexion",
+            "logohero": "Connectez-vous pour accéder à l'espace client.",
+            "rememberme": "Se souvenir de moi",
+            "nocustomeryet": "Pas encore client ?",
+            "norecord": "Identifiant ou mot de passe incorrect.",
+            "admin": {
+                "subtitle": "Connectez-vous pour accéder à l'administration."
+            },
+            "email": {
+                "subject": "Nouvelle connexion à votre compte.",
+                "content1": "Nous avons détecté une nouvelle connexion sur votre compte.",
+                "content2": "Emplacement: %localization%",
+                "content3": "Adresse IP: %ipaddress%",
+                "content4": "Si c'est bien vous, vous pouvez supprimer ce message toutefois si ce n'est pas vous, pensez à changer votre mot de passe dès maintenant, nous ne sommes en aucun cas responsable des actes effectuer sur votre compte en cas de piratage."
+            }
+        },
+        "forgot": {
+            "title": "Mot de passe oublié ?",
+            "success": "Merci de consulter vos courriels afin de poursuivre la procédure.",
+            "email": {
+                "title": "Courriel de réinitialisation de mot de passe",
+                "content": "\r\nVous êtes un peu tête en l'air et avez oublié votre mot de passe ?\r\n                Pas de panique, vous pouvez à présent réinstaller votre mot de passe en cliquant ci-dessous. ",
+                "button": "Réinstaller mon mot de passe"
+            }
+        },
+        "activity": {
+            "title": "Historique d'activité"
+        },
+        "admin": {
+            "title": "Utilisateurs",
+            "subtitle": "Administrez les différents utilisateurs du système.",
+            "ceatetitle": "Création de compte",
+            "edittitle": "Édition du compte",
+            "note": "Note sur l'utilisateur",
+            "emailOnlogin": "Email a la connexion",
+            "confirm": "Confirmer automatiquement l'utilisateur",
+            "security": "Sécurité du compte",
+            "state": "État du compte",
+            "login": "Se connecter en tant que client",
+            "createdAt": "Enregistré le",
+            "lastSignAt": "Dernière connexion le",
+            "lastSignIp": "Dernière connexion avec",
+            "confirmedAt": "Confirmé le",
+            "informations": "Informations du compte",
+            "confirmationLink": "Lien de confirmation",
+            "log": "Historique du compte",
+            "emptypassword": "Laissez vide pour ne pas modifier"
+        }
+    }
+}

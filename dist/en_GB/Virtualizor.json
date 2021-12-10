@@ -1,0 +1,49 @@
+{
+    "kvm": "KVM",
+    "openvz": "OpenVZ",
+    "lxc": "LXC",
+    "virtualizor": {
+        "hostname": "Host",
+        "os": "OS",
+        "planname": "Plan name",
+        "offline": "Offline",
+        "online": "Online",
+        "productname": "Product name",
+        "panel": {
+            "button": "Login",
+            "start": "Start",
+            "stop": "Stop",
+            "powerstop": "Power stop",
+            "restart": "Restart",
+            "os_name": "Os",
+            "bandwidth": "Bandwidth",
+            "ram": "RAM",
+            "virt": "Virtualization",
+            "cpu": "CPU",
+            "disk": "Disk space",
+            "cores": "Cores",
+            "in": "In",
+            "out": "Out",
+            "usage": "Usage",
+            "information": "Hosting information",
+            "uptime": "Uptime",
+            "reset": "Reset",
+            "problem": "You have a problem with the hosting ?",
+            "openticket": "Open ticket!"
+        },
+        "admin": {
+            "title": "Virtualizor Configuration",
+            "subtitle": "Manage the offer configurations.",
+            "planname": "Plan name"
+        },
+        "config": {
+            "title": "Virtual Server configuration",
+            "subtitle": "Manage the characteristics of the offer."
+        },
+        "converter": {
+            "title": "Converter",
+            "mb": "Enter your number in MB",
+            "gb": "Enter your number in GB"
+        }
+    }
+}

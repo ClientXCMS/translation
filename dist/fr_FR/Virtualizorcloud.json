@@ -1,0 +1,99 @@
+{
+    "kvm": "KVM",
+    "openvz": "OpenVZ",
+    "lxc": "LXC",
+    "virtualizorcloud": {
+        "hostname": "Hôte",
+        "os": "OS",
+        "offline": "éteint",
+        "online": "Allumé",
+        "planname": "Nom du plan",
+        "productname": "Nom du produit",
+        "panel": {
+            "button": "Connexion",
+            "start": "Démarrer",
+            "stop": "Eteindre",
+            "powerstop": "Tuer",
+            "restart": "Redémarrer",
+            "os_name": "Os",
+            "bandwidth": "Bande passante",
+            "ram": "RAM",
+            "virt": "Virtualisation",
+            "cpu": "CPU",
+            "disk": "Espace disque",
+            "cores": "Coeurs",
+            "in": "Entrant",
+            "out": "Sortant",
+            "usage": "Utilisation",
+            "site": "Ouvrir le site",
+            "information": "Informations sur l'hébergement",
+            "problem": "Vous avez un problème avec l'hébergement ?",
+            "openticket": "Ouvrir un ticket!",
+            "uptime": "Uptime",
+            "reset": "Réinstallation"
+        },
+        "form": {
+            "resources": {
+                "title": "Ressource",
+                "disk": "Espace disque (GB)",
+                "io": "Block IO",
+                "bandwidth": "Bande passante (0GB ou vide pour aucune limite)",
+                "inodes": "INode (OpenVZ)",
+                "priority": "I\/O Priorité (OpenVZ)",
+                "vnc": "VNC Enabled (KVM)",
+                "speed": "Network speed in KB\/s (0GB\/s ou vide pour aucune limite)",
+                "server": "Serveur",
+                "ip6": "IPv6",
+                "ip6subnet": "Ip6subnet",
+                "ips": "Ips",
+                "oses": "Os disponibles (séparé par des virgules)",
+                "internalips": "Internal IP",
+                "portrange": "Port à assigner au serveur (séparé par des virgules)"
+            },
+            "stockage": {
+                "title": "Stockage",
+                "ram": "RAM MB  (KVM, LXC)",
+                "guaranteed": "Ram garantie (MB)",
+                "burstable": "Burstable Ram (OpenVZ)",
+                "space": "Espace disque (GB)"
+            },
+            "cpu": {
+                "cores": "Coeurs",
+                "units": "Units",
+                "cpu": "CPU en %",
+                "title": "CPU"
+            },
+            "converter": {
+                "title": "Convertisseur",
+                "mb": "Tapez votre chiffre en MB",
+                "gb": "Tapez votre chiffre en GB"
+            },
+            "configurations": {
+                "title": "Configurations",
+                "server": "Server",
+                "group": "Group",
+                "vnc": "VNC"
+            },
+            "ips": {
+                "ip6subnet": "Nombre d'adresse IPV6",
+                "ip6": "Nombre d'adresse IPv6 subnet",
+                "internalips": "Nombre d'adresse IP interne",
+                "ips": "Nombre d'IPs"
+            }
+        },
+        "admin": {
+            "title": "Configuration Virtualizor",
+            "subtitle": "Administrez offre du système.",
+            "planname": "Plan name"
+        },
+        "config": {
+            "title": "Configurer votre offre",
+            "subtitle": "Administrez les caractérisiques de l'offre."
+        },
+        "converter": {
+            "title": "Convertisseur",
+            "mb": "Tapez votre chiffre en MB",
+            "gb": "Tapez votre chiffre en GB"
+        }
+    }
+}
